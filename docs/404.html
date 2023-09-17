@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>404</title>
+  </head>
+  <body>
+    <h1>404.html</h1>
+    <script>
+      const converte = (pathname) => {
+        const recursos = [
+          "StructureDefinition",
+          "CodeSystem",
+          "ValueSet",
+          "Organization",
+          "OperationDefinition",
+          "Practitioner",
+          "Patient",
+          "NamingSystem",
+        ];
+        for (let recurso of recursos) {
+          let inicio = pathname.indexOf(`/${recurso}/`);
+          if (inicio >= 0) {
+            const base = pathname.substring(0, inicio);
+            const id = pathname.substring(inicio + recurso.length + 2);
+            const novaUrl = `${base}/${recurso}-${id}.html`;
+            window.location.href = novaUrl;
+          }
+        }
+      };
+      converte(window.location.pathname);
+    </script>
+  </body>
+</html>
