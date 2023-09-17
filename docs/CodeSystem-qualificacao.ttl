@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Qualificação de animal terapeuta"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-09-17T18:01:25-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-09-17T18:19:19-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "CGIS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "CGIS" ] ;

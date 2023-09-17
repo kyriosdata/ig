@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="286991d0-4f90-4ccb-b017-39bb3143d740"/>
+  <id value="5589ff3e-5bdf-49ba-9397-36779469b939"/>
   <meta>
-    <lastUpdated value="2023-09-17T18:01:25.843-03:00"/>
+    <lastUpdated value="2023-09-17T18:19:19.189-03:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -111,7 +111,7 @@
         <title value="Códigos válidos para qualificação de animal terapeuta"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2023-09-17T18:01:25-03:00"/>
+        <date value="2023-09-17T18:19:19-03:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -119,8 +119,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:999d1a0f-b51d-4141-a4d5-c6cee38c14d3"/>
-          <timestamp value="2023-09-17T18:01:46-03:00"/>
+          <identifier value="urn:uuid:dc7b7723-9493-45af-90c6-b9c9d53f99bc"/>
+          <timestamp value="2023-09-17T18:20:28-03:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
