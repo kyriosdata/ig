@@ -1,3 +1,18 @@
+### Auto builder
+
+Durante o desenvolvimento de um guia é natural que seja 
+divulgado o trabalho em andamento. Isto é oferecido 
+pelo [Auto-builder](https://github.com/FHIR/auto-ig-builder). Veja
+como configurar neste link. 
+
+Observação, o nome do _branch_ deve ser _master_. Quando se cria
+repositórios no Github o padrão corrente é _main_. Neste caso, 
+terá que renomear para _master_. 
+
+O resultado pode ser
+acessado em [https://build.fhir.org/ig/kyriosdata/ig/](https://build.fhir.org/ig/kyriosdata/ig/).
+
+
 ### Notas
 
 Notas podem ser inseridas no início da página ou ao final.
