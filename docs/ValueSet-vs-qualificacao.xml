@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="vs-qualificacao"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+  </text>
+  <url value="https://kyriosdata.github.io/ig/ValueSet/vs-qualificacao"/>
+  <version value="0.0.1"/>
+  <name value="ValoresQualificacaoAnimalTerapeuta"/>
+  <title value="Códigos válidos para qualificação de animal terapeuta"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2023-09-17T18:01:25-03:00"/>
+  <publisher value="CGIS"/>
+  <contact>
+    <name value="CGIS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://cgis.ufg.br/"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="fabio@inf.ufg.br"/>
+    </telecom>
+  </contact>
+  <description value="Códigos para designar capacidade de um animal terapeuta"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://kyriosdata.github.io/ig/CodeSystem/qualificacao"/>
+    </include>
+  </compose>
+</ValueSet>

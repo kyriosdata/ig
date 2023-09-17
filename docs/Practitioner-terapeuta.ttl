@@ -1,0 +1,64 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://kyriosdata.github.io/ig/Practitioner/terapeuta> a fhir:Practitioner ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "terapeuta"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta"^^xsd:anyURI ;
+       fhir:link <https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dr. Romeu</div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/practitioner-animalSpecies"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         a sct:388445009 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "388445009" ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://www.gov.br/agricultura/ca"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "12.22.333" ]
+  ] [
+     fhir:system [ fhir:v "http://crmv.org/cat"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "crmv.codigo.123" ]
+  ] ) ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:name ( [
+     fhir:given ( [ fhir:v "Romeu" ] )
+  ] ) ; # 
+  fhir:telecom ( [
+     fhir:use [ fhir:v "work" ]
+  ] ) ; # 
+  fhir:address ( [
+     fhir:use [ fhir:v "home" ] ;
+     fhir:text [ fhir:v "Endereço do Dr. Romeu" ]
+  ] ) ; # 
+  fhir:photo ( [
+     fhir:url [ fhir:v "https://images.unsplash.com/photo-1552053831-71594a27632d"^^xsd:anyURI ]
+  ] ) ; # 
+  fhir:qualification ( [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://kyriosdata.github.io/ig/CodeSystem/qualificacao"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "alerta" ]
+       ] )
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

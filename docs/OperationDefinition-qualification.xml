@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OperationDefinition xmlns="http://hl7.org/fhir">
+  <id value="qualification"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+  </text>
+  <url value="https://kyriosdata.github.io/ig/OperationDefinition/qualification"/>
+  <version value="0.0.1"/>
+  <name value="LocalizaAnimalTerapeutaPorQualificacao"/>
+  <title value="Definição de busca por qualificação de animal terapeuta"/>
+  <status value="active"/>
+  <kind value="operation"/>
+  <experimental value="true"/>
+  <date value="2023-09-06T09:29:23+11:00"/>
+  <publisher value="CGIS"/>
+  <contact>
+    <name value="CGIS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://cgis.ufg.br/"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="fabio@inf.ufg.br"/>
+    </telecom>
+  </contact>
+  <description value="Definição da operação de busca por qualificação de animal terapeuta"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+    </coding>
+  </jurisdiction>
+  <code value="qualification"/>
+  <comment value="Detalha a operação de busca, baseada na qualificação, por animal que contribui com assistência à saúde."/>
+  <resource value="Practitioner"/>
+  <system value="false"/>
+  <type value="true"/>
+  <instance value="true"/>
+  <parameter>
+    <name value="code"/>
+    <use value="in"/>
+    <min value="1"/>
+    <max value="1"/>
+    <documentation value="O código da qualificação de interesse"/>
+    <type value="code"/>
+    <binding>
+      <strength value="required"/>
+      <valueSet value="https://kyriosdata.github.io/ig/ValueSet/vs-qualificacao"/>
+    </binding>
+  </parameter>
+  <parameter>
+    <name value="return"/>
+    <use value="out"/>
+    <min value="1"/>
+    <max value="1"/>
+    <documentation value="Instâncias de Practitioner referente a animais que possuem a qualificação indicada."/>
+    <type value="Bundle"/>
+  </parameter>
+</OperationDefinition>

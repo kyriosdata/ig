@@ -29,4 +29,4 @@ arquivos citados anteriormente [aqui](full-ig.zip).
 ### Repositório github
 
 O presente guia é produzido a partir do repositório
-https://github.com/kyriosdata/profiling. 
+[https://github.com/kyriosdata/ig](https://github.com/kyriosdata/ig). 

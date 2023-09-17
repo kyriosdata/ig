@@ -1,0 +1,50 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "terapeuta",
+  "meta" : {
+    "profile" : ["https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dr. Romeu</div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/practitioner-animalSpecies",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "388445009"
+      }]
+    }
+  }],
+  "identifier" : [{
+    "system" : "http://www.gov.br/agricultura/ca",
+    "value" : "12.22.333"
+  },
+  {
+    "system" : "http://crmv.org/cat",
+    "value" : "crmv.codigo.123"
+  }],
+  "active" : true,
+  "name" : [{
+    "given" : ["Romeu"]
+  }],
+  "telecom" : [{
+    "use" : "work"
+  }],
+  "address" : [{
+    "use" : "home",
+    "text" : "Endereço do Dr. Romeu"
+  }],
+  "photo" : [{
+    "url" : "https://images.unsplash.com/photo-1552053831-71594a27632d"
+  }],
+  "qualification" : [{
+    "code" : {
+      "coding" : [{
+        "system" : "https://kyriosdata.github.io/ig/CodeSystem/qualificacao",
+        "code" : "alerta"
+      }]
+    }
+  }]
+}

@@ -1,0 +1,65 @@
+{
+  "resourceType" : "Patient",
+  "id" : "romeu",
+  "meta" : {
+    "profile" : ["https://kyriosdata.github.io/ig/StructureDefinition/animal"]
+  },
+  "text" : {
+    "status" : "empty",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dr. Romeu</div>"
+  },
+  "extension" : [{
+    "extension" : [{
+      "url" : "species",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/animal-species",
+          "code" : "canislf",
+          "display" : "Dog"
+        }]
+      }
+    },
+    {
+      "url" : "breed",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://example.org/fhir/CodeSystem/animal-breed",
+          "code" : "gret",
+          "display" : "Golden Retriever"
+        }]
+      }
+    },
+    {
+      "url" : "genderStatus",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/animal-genderstatus",
+          "code" : "neutered"
+        }]
+      }
+    }],
+    "url" : "http://hl7.org/fhir/StructureDefinition/patient-animal"
+  }],
+  "identifier" : [{
+    "system" : "http://www.gov.br/agricultura/ca",
+    "value" : "12.22.333"
+  }],
+  "name" : [{
+    "given" : ["Romeu"]
+  }],
+  "deceasedBoolean" : false,
+  "address" : [{
+    "text" : "Endereço do Dr. Romeu"
+  }],
+  "photo" : [{
+    "url" : "https://images.unsplash.com/photo-1552053831-71594a27632d"
+  }],
+  "contact" : [{
+    "name" : {
+      "text" : "Tutora Marília"
+    }
+  }],
+  "generalPractitioner" : [{
+    "reference" : "Organization/clinica-veterinaria"
+  }]
+}

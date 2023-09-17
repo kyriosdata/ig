@@ -1,0 +1,63 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "qualificacao",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "https://kyriosdata.github.io/ig/CodeSystem/qualificacao",
+  "version" : "0.0.1",
+  "name" : "QualificacaoAnimalTerapeuta",
+  "title" : "Qualificação de animal terapeuta",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2023-09-17T18:01:25-03:00",
+  "publisher" : "CGIS",
+  "contact" : [{
+    "name" : "CGIS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://cgis.ufg.br/"
+    },
+    {
+      "system" : "email",
+      "value" : "fabio@inf.ufg.br"
+    }]
+  }],
+  "description" : "Vocabulário para designar as capacidades de um animal terapeuta",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "caseSensitive" : true,
+  "valueSet" : "https://kyriosdata.github.io/ig/ValueSet/vs-qualificacao",
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "emocional",
+    "display" : "Emocional",
+    "definition" : "Apoio emocional"
+  },
+  {
+    "code" : "terapia",
+    "display" : "Animal para terapia",
+    "definition" : "Treinado para interagir com pacientes em ambiente de saúde"
+  },
+  {
+    "code" : "servico",
+    "display" : "Serviço",
+    "definition" : "Treinados para auxiliar pessoas com deficiências físicas"
+  },
+  {
+    "code" : "detector",
+    "display" : "Detector de doenças",
+    "definition" : "Apto a detectar doenças, por exemplo, pelo odor"
+  },
+  {
+    "code" : "alerta",
+    "display" : "Alerta",
+    "definition" : "Apto a detectar sinais de crise e emitir alerta."
+  }]
+}

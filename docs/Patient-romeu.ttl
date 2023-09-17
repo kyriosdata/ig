@@ -1,0 +1,79 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://kyriosdata.github.io/ig/Patient/romeu> a fhir:Patient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "romeu"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://kyriosdata.github.io/ig/StructureDefinition/animal"^^xsd:anyURI ;
+       fhir:link <https://kyriosdata.github.io/ig/StructureDefinition/animal>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "empty" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dr. Romeu</div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "species"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableConcept ;
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://hl7.org/fhir/animal-species"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "canislf" ] ;
+           fhir:display [ fhir:v "Dog" ]
+         ] )
+       ]
+     ] [
+       fhir:url [ fhir:v "breed"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableConcept ;
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://example.org/fhir/CodeSystem/animal-breed"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "gret" ] ;
+           fhir:display [ fhir:v "Golden Retriever" ]
+         ] )
+       ]
+     ] [
+       fhir:url [ fhir:v "genderStatus"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableConcept ;
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://hl7.org/fhir/animal-genderstatus"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "neutered" ]
+         ] )
+       ]
+     ] ) ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/patient-animal"^^xsd:anyURI ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://www.gov.br/agricultura/ca"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "12.22.333" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:given ( [ fhir:v "Romeu" ] )
+  ] ) ; # 
+  fhir:deceased [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:address ( [
+     fhir:text [ fhir:v "Endereço do Dr. Romeu" ]
+  ] ) ; # 
+  fhir:photo ( [
+     fhir:url [ fhir:v "https://images.unsplash.com/photo-1552053831-71594a27632d"^^xsd:anyURI ]
+  ] ) ; # 
+  fhir:contact ( [
+     fhir:name [
+       fhir:text [ fhir:v "Tutora Marília" ]
+     ]
+  ] ) ; # 
+  fhir:generalPractitioner ( [
+     fhir:link <https://kyriosdata.github.io/ig/Organization/clinica-veterinaria> ;
+     fhir:reference [ fhir:v "Organization/clinica-veterinaria" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

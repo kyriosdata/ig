@@ -3,22 +3,22 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: at
-canonical: https://kyriosdata.github.io/profiling
+id: br.ufg.cgis.ig
+canonical: https://kyriosdata.github.io/ig
 name: AnimalTerapeuta
 title: Guia de Implementação
 description: Ilustra criação de guias de implementação
 status: draft # draft | active | retired | unknown
-version: 0.1.1
+version: 0.0.1
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2023+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
-# license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
+license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: urn:iso:std:iso:3166#BR
 publisher:
   name: CGIS
   url: https://cgis.ufg.br/
-  # email: test@example.org
+  email: fabio@inf.ufg.br
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced

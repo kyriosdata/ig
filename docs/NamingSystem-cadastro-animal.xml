@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="cadastro-animal"/>
+  <text>
+    <status value="empty"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+  </text>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url">
+    <valueUri value="https://kyriosdata.github.io/ig/NamingSystem/cadastro-animal"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version">
+    <valueString value="0.0.1"/>
+  </extension>
+  <name value="CadastroDeAnimal"/>
+  <status value="active"/>
+  <kind value="identifier"/>
+  <date value="2023-08-28"/>
+  <publisher value="CGIS"/>
+  <contact>
+    <name value="CGIS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://cgis.ufg.br/"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="fabio@inf.ufg.br"/>
+    </telecom>
+  </contact>
+  <responsible value="Ministério da Agricultura e Pecuária (MAPA)"/>
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+      <code value="MR"/>
+    </coding>
+  </type>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BR"/>
+    </coding>
+  </jurisdiction>
+  <usage value="Código único atribuído a cada animal identificado no Brasil"/>
+  <uniqueId>
+    <type value="uri"/>
+    <value value="http://www.gov.br/agricultura/ca"/>
+    <preferred value="true"/>
+    <comment value="Identificador brasileiro único de animais"/>
+    <period>
+      <start value="2023-08-28"/>
+    </period>
+  </uniqueId>
+</NamingSystem>

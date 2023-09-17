@@ -1,0 +1,62 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://kyriosdata.github.io/ig/NamingSystem/cadastro-animal-terapeuta> a fhir:NamingSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "cadastro-animal-terapeuta"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "https://kyriosdata.github.io/ig/NamingSystem/cadastro-animal-terapeuta"^^xsd:anyURI ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "0.0.1" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "CadastroAnimalTerapeuta"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:kind [ fhir:v "identifier"] ; # 
+  fhir:date [ fhir:v "2023-08-28"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "CGIS"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "CGIS" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://cgis.ufg.br/" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "fabio@inf.ufg.br" ]
+     ] )
+  ] ) ; # 
+  fhir:responsible [ fhir:v "Conselho Regional de Medicina Veterinária (CRMV)"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "EN" ]
+     ] )
+  ] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ]
+     ] )
+  ] ) ; # 
+  fhir:usage [ fhir:v "Código único atribuído a cada animal terapeuta no Brasil"] ; # 
+  fhir:uniqueId ( [
+     fhir:type [ fhir:v "uri" ] ;
+     fhir:value [ fhir:v "http://crmv.org/cat" ] ;
+     fhir:preferred [ fhir:v "true"^^xsd:boolean ] ;
+     fhir:comment [ fhir:v "Identificador brasileiro único de animais terapeutas" ] ;
+     fhir:period [
+       fhir:start [ fhir:v "2023-08-28"^^xsd:date ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

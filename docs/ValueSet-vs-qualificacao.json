@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "vs-qualificacao",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "https://kyriosdata.github.io/ig/ValueSet/vs-qualificacao",
+  "version" : "0.0.1",
+  "name" : "ValoresQualificacaoAnimalTerapeuta",
+  "title" : "Códigos válidos para qualificação de animal terapeuta",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2023-09-17T18:01:25-03:00",
+  "publisher" : "CGIS",
+  "contact" : [{
+    "name" : "CGIS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://cgis.ufg.br/"
+    },
+    {
+      "system" : "email",
+      "value" : "fabio@inf.ufg.br"
+    }]
+  }],
+  "description" : "Códigos para designar capacidade de um animal terapeuta",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://kyriosdata.github.io/ig/CodeSystem/qualificacao"
+    }]
+  }
+}

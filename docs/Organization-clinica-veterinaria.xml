@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="clinica-veterinaria"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Organization</b><a name="clinica-veterinaria"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Organization &quot;clinica-veterinaria&quot; </p></div><p><b>active</b>: true</p><p><b>name</b>: Clínica Veterinária Animal Feliz</p><p><b>alias</b>: CVAF</p><p><b>telecom</b>: ph: 98765-4321</p><p><b>address</b>: Rua Luis Machado, n. 123(WORK)</p></div>
+  </text>
+  <active value="true"/>
+  <name value="Clínica Veterinária Animal Feliz"/>
+  <alias value="CVAF"/>
+  <telecom>
+    <system value="phone"/>
+    <value value="98765-4321"/>
+  </telecom>
+  <address>
+    <use value="work"/>
+    <type value="physical"/>
+    <text value="Rua Luis Machado, n. 123"/>
+    <city value="Serra da Saudade"/>
+    <state value="MG"/>
+    <country value="BR"/>
+  </address>
+</Organization>
