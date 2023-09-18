@@ -10,9 +10,16 @@ facilitou a criação do Guia, que não teve que contemplar
 um contexto real, profissionais de saúde e outros especialistas
 necessários, mas não consultados.
 
+## Acompanhe por aqui...
+
+- Build mais recente deve estar aqui: https://fhir.github.io/auto-ig-builder/
+- Publicação do Guia (o melhor possível no github pages): https://kyriosdata.github.io/ig
+- O projeto pode ser encontrado aqui: https://fshschool.org/fsh-finder/
+
 ## Para fazer...
 
 - Nao ocorre carga correta do pacote conforme configurado abaixo em application.yml com
+
 ```
 implementationguides:
     ##    example from registry (packages.fhir.org)
@@ -20,10 +27,7 @@ implementationguides:
         packageUrl: https://kyriosdata.github.io/profiling/package.tgz
         name: at
         version: 0.1.1
-``` 
-
-- Verificar se build aparece em https://fhir.github.io/auto-ig-builder/
-- Verificar se encontrado em https://fshschool.org/fsh-finder/
+```
 
 ## Publicação usando github pages
 
