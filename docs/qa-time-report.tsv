@@ -1,12 +1,12 @@
 Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-\fsh-generated\resources\ImplementationGuide-br.ufg.cgis.ig.json	4266	-	0	0	0	0	0	0	1	617	0	0	0	0	0	0	0	0	0	0	98	117	0	0	0	2	0	1
-fsh-generated/resources/CodeSystem-qualificacao.json	1384	7	0	0	1	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	16	1338	0	0	0	0	0	0
-fsh-generated/resources/NamingSystem-cadastro-animal-terapeuta.json	898	5	0	0	0	0	23	0	0	0	738	0	0	0	0	0	0	0	0	0	15	23	0	0	0	0	0	0
-fsh-generated/resources/NamingSystem-cadastro-animal.json	1120	6	0	0	0	0	15	0	0	0	18	0	0	0	0	0	0	0	0	0	20	15	0	0	0	0	0	0
-fsh-generated/resources/OperationDefinition-qualification.json	1492	7	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	17	15	0	0	0	1	0	0
-fsh-generated/resources/Organization-clinica-veterinaria.json	446	6	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	11	16	0	0	0	0	0	0
-fsh-generated/resources/Patient-romeu.json	1871	26	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	20	0	0	0	0	0	0
-fsh-generated/resources/Practitioner-terapeuta.json	1343	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	14	15	0	0	0	0	0	0
-fsh-generated/resources/StructureDefinition-animal-terapeuta.json	5762	426	0	0	0	0	0	2080	0	0	0	0	0	0	0	0	0	1	0	0	271	1484	0	0	0	6	0	0
-fsh-generated/resources/StructureDefinition-animal.json	5185	464	0	0	0	0	0	1981	0	0	0	0	0	0	0	0	0	1	0	0	250	760	0	0	0	4	0	1
-fsh-generated/resources/ValueSet-vs-qualificacao.json	684	5	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	14	5784	0	0	0	1	0	0
+\fsh-generated\resources\ImplementationGuide-br.ufg.cgis.ig.json	4266	-	0	0	0	0	0	0	2	457	0	0	0	0	0	0	0	1	0	0	101	136	0	1	0	3	0	2
+fsh-generated/resources/CodeSystem-qualificacao.json	1384	10	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17	1572	0	0	0	0	0	0
+fsh-generated/resources/NamingSystem-cadastro-animal-terapeuta.json	898	7	0	0	0	0	26	0	0	0	211	0	0	0	0	0	0	0	0	0	16	21	0	0	0	0	0	0
+fsh-generated/resources/NamingSystem-cadastro-animal.json	1120	6	0	0	0	0	15	0	0	0	14	0	0	0	0	0	0	0	0	0	15	17	0	0	0	0	0	0
+fsh-generated/resources/OperationDefinition-qualification.json	1492	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15	20	0	0	0	1	0	0
+fsh-generated/resources/Organization-clinica-veterinaria.json	446	7	1	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	13	14	0	0	0	0	0	0
+fsh-generated/resources/Patient-romeu.json	1871	23	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17	19	0	0	0	0	0	0
+fsh-generated/resources/Practitioner-terapeuta.json	1343	11	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	14	17	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-animal-terapeuta.json	5762	337	0	0	0	0	0	1500	0	0	0	0	1	0	0	0	0	1	0	0	265	1510	0	0	0	7	0	1
+fsh-generated/resources/StructureDefinition-animal.json	5185	323	0	0	0	0	0	1411	0	0	0	0	0	0	0	0	0	1	0	0	242	852	0	0	0	8	0	2
+fsh-generated/resources/ValueSet-vs-qualificacao.json	684	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	14	5751	0	0	0	0	0	0

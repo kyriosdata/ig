@@ -12,22 +12,9 @@ necessários, mas não consultados.
 
 ## Acompanhe por aqui...
 
-- Build mais recente deve estar aqui: https://fhir.github.io/auto-ig-builder/
+- Build mais recente deve estar aqui: https://build.fhir.org/ig/kyriosdata/ig/
 - Publicação do Guia (o melhor possível no github pages): https://kyriosdata.github.io/ig
 - O projeto pode ser encontrado aqui: https://fshschool.org/fsh-finder/
-
-## Para fazer...
-
-- Nao ocorre carga correta do pacote conforme configurado abaixo em application.yml com
-
-```
-implementationguides:
-    ##    example from registry (packages.fhir.org)
-      animal:
-        packageUrl: https://kyriosdata.github.io/profiling/package.tgz
-        name: at
-        version: 0.1.1
-```
 
 ## Publicação usando github pages
 
@@ -41,3 +28,15 @@ implementationguides:
 - git add .
 - git commit -am "atualização"
 - git push
+
+## Não estável...
+
+- Acrescente o trecho abaixo no arquivo `src/main/resources/application.yml`
+
+```
+implementationguides:
+  animal:
+    packageUrl: https://build.fhir.org/ig/kyriosdata/ig/package.tgz
+    name: br.ufg.cgis.ig
+    version: 0.0.1
+```
