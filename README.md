@@ -13,7 +13,10 @@ necessários, mas não consultados.
 ## Acompanhe por aqui...
 
 - Build mais recente deve estar aqui: https://build.fhir.org/ig/kyriosdata/ig/
-- Publicação do Guia (o melhor possível no github pages): https://kyriosdata.github.io/ig
+- Pouco depois (o melhor possível no github pages): https://kyriosdata.github.io/ig
+
+## Registros disponíveis
+
 - O projeto pode ser encontrado aqui: https://fshschool.org/fsh-finder/
 
 ## Publicação usando github pages
