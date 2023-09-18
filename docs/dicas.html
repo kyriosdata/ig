@@ -142,11 +142,40 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
+  <li><a href="#auto-builder" id="markdown-toc-auto-builder">Auto builder</a></li>
+  <li><a href="#ferramentas" id="markdown-toc-ferramentas">Ferramentas</a></li>
   <li><a href="#notas" id="markdown-toc-notas">Notas</a></li>
   <li><a href="#npm-package" id="markdown-toc-npm-package">NPM Package</a></li>
 </ul>
 
 </div>
+<h3 id="auto-builder">Auto builder</h3>
+
+<p>Durante o desenvolvimento de um guia é natural que seja
+divulgado o trabalho em andamento. Isto é oferecido
+pelo <a href="https://github.com/FHIR/auto-ig-builder">Auto-builder</a>. Veja
+como configurar neste link.</p>
+
+<p>Observação, o nome do <em>branch</em> deve ser <em>master</em>. Quando se cria
+repositórios no Github o padrão corrente é <em>main</em>. Neste caso,
+terá que renomear para <em>master</em>.</p>
+
+<p>O resultado pode ser
+acessado em <a href="https://build.fhir.org/ig/kyriosdata/ig/">https://build.fhir.org/ig/kyriosdata/ig/</a>.</p>
+
+<h3 id="ferramentas">Ferramentas</h3>
+
+<ul>
+  <li>Editor de FHIR Shorthand (fsh). A sugestão é o <a href="https://code.visualstudio.com/">Visual Code</a> e as extensões FHIR Shorthand (<a href="https://marketplace.visualstudio.com/items?itemName=MITRE-Health.vscode-language-fsh">aqui</a>) e FHIR Tools (<a href="https://marketplace.visualstudio.com/items?itemName=Yannick-Lagger.vscode-fhir-tools#:~:text=Vscode%2Dfhir%2Dtools%20is%20an,with%20the%20permission%20of%20HL7.">aqui</a>).</li>
+  <li>Plataformas empregadas por várias ferramentas: (a) <a href="https://nodejs.org/en">Node.js</a> e (b) Java, pelo menos a versão 17 (<a href="https://adoptium.net/">aqui</a>).</li>
+  <li>Instalar Sushi (npm install -g fsh-sushi)</li>
+  <li>Clientes para montagem e execução de requisições http(s): <a href="https://httpie.io/cli">httpie</a> para linha de comandos e <a href="https://www.postman.com/">Postman</a> aplicativo gráfico.</li>
+  <li>Instalar Ruby e Jekyll (veja <a href="https://jekyllrb.com/docs/installation/#guides">aqui</a>).</li>
+  <li>Instalar FHIRPath (npm install -g fhirpath). Documentação de uso <a href="https://github.com/hl7/fhirpath.js/">aqui</a>.</li>
+  <li>Instalar o validador (validator_cli.jar). Documentação de uso <a href="https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator">aqui</a>.</li>
+  <li>Instalar o IG Publisher (<a href="https://github.com/HL7/fhir-ig-publisher">publisher</a>). Documentação de uso <a href="https://confluence.hl7.org/display/FHIR/IG+Publisher+Documentation">aqui</a>.</li>
+</ul>
+
 <h3 id="notas">Notas</h3>
 
 <p>Notas podem ser inseridas no início da página ou ao final.
@@ -160,15 +189,14 @@ instância de OperationDefinition cujo identificador é <strong>qualification</s
 <h3 id="npm-package">NPM Package</h3>
 
 <p>A publicação do presente guia foi realizada no registro
-https://fhir.org/guides/registry/. Para tal, conforme as 
+https://fhir.org/guides/registry/. Para tal, conforme as
 orientações em https://github.com/FHIR/ig-registry, foram realizados dois passos.</p>
 
 <p>Primeiro foi produzido o seguinte conteúdo, disponível no
-diretório <strong>ig</strong> do repositório empregado para criação 
+diretório <strong>ig</strong> do repositório empregado para criação
 do guia: https://github.com/kyriosdata/profiling.</p>
 
-<p><code class="language-plaintext highlighter-rouge">
-{
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
   "name": "Animal terapeuta (não humano)",
   "category": "Research",
   "npm-name": "animal.terapeuta",
@@ -188,12 +216,14 @@ do guia: https://github.com/kyriosdata/profiling.</p>
       "url": "https://kyriosdata.github.io/profiling"
     }
   ]
-}</code></p>
+}```
 
-<p>Segundo e último. Requisitado o acréscimo desta informação via pull request,
-conforme <a href="https://github.com/FHIR/ig-registry/pull/212#event-10378476168">aqui</a>. Neste link também se observa que a requisição foi aprovada.</p>
+Segundo e último. Requisitado o acréscimo desta informação via pull request,
+conforme [aqui](https://github.com/FHIR/ig-registry/pull/212#event-10378476168). Neste link também se observa que a requisição foi aprovada.
 
-<p>Após estes passos pode-se localizar o presente guia no registro</p>
+Após estes passos pode-se localizar o presente guia no registro
+
+</code></pre></div></div>
 
 
 
@@ -220,7 +250,7 @@ conforme <a href="https://github.com/FHIR/ig-registry/pull/212#event-10378476168
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://cgis.ufg.br/">CGIS</a>.  Package br.ufg.cgis.ig#0.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Sep 17, 2023 18:19-0300">2023-09-17</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://cgis.ufg.br/">CGIS</a>.  Package br.ufg.cgis.ig#0.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Sep 18, 2023 09:23-0300">2023-09-18</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

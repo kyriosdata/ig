@@ -4,4 +4,4 @@ AnimalTerapeuta : Validation Results
 
 err = 0, warn = 4, info = 0
 IG Publisher Version: 1.4.6
-Generated Sun Sep 17 18:21:36 BRT 2023. FHIR version 4.0.1 for br.ufg.cgis.ig#0.0.1 (canonical = https://kyriosdata.github.io/ig)
+Generated Mon Sep 18 09:25:04 BRT 2023. FHIR version 4.0.1 for br.ufg.cgis.ig#0.0.1 (canonical = https://kyriosdata.github.io/ig)

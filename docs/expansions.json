@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "5589ff3e-5bdf-49ba-9397-36779469b939",
+  "id" : "711a799d-10e1-48d6-8e4b-cf366ae56717",
   "meta" : {
-    "lastUpdated" : "2023-09-17T18:19:19.189-03:00"
+    "lastUpdated" : "2023-09-18T09:23:55.676-03:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "title" : "Códigos válidos para qualificação de animal terapeuta",
       "status" : "active",
       "experimental" : true,
-      "date" : "2023-09-17T18:19:19-03:00",
+      "date" : "2023-09-18T09:23:55-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -27,8 +27,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:dc7b7723-9493-45af-90c6-b9c9d53f99bc",
-        "timestamp" : "2023-09-17T18:20:28-03:00",
+        "identifier" : "urn:uuid:a07f6f2a-0988-4839-a1a6-0466657508bb",
+        "timestamp" : "2023-09-18T09:24:22-03:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
