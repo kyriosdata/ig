@@ -17,6 +17,7 @@ necessários, mas não consultados.
 
 ## Registros disponíveis
 
+- Registrar repositório para build https://github.com/FHIR/auto-ig-builder
 - O projeto pode ser encontrado aqui: https://fshschool.org/fsh-finder/
 - Dashboard de build: https://fhir.github.io/auto-ig-builder/
 
