@@ -4,9 +4,9 @@
   "description": "Cadastro de animais terapeutas visando a facilidade de localização deles pelas habilidades.",
   "authority": "CGIS (UFG)",
   "country": "br",
-  "history": "https://kyriosdata.github.io/ig/history.html",
+  "history": "https://fhir.fabrica.inf.ufg.br/ig/history.html",
   "language": ["pt"],
-  "canonical": "https://kyriosdata.github.io/ig",
+  "canonical": "https://fhir.fabrica.inf.ufg.br/ig",
   "ci-build": "https://build.fhir.org/ig/kyriosdata/ig/",
   "editions": [
     {
@@ -14,7 +14,7 @@
       "ig-version": "0.1.0",
       "package": "br.ufg.cgis.ig#0.1.0",
       "fhir-version": ["4.0.1"],
-      "url": "https://kyriosdata.github.io/ig"
+      "url": "https://fhir.fabrica.inf.ufg.br/ig"
     }
   ]
 }

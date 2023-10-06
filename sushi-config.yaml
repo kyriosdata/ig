@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: br.ufg.cgis.ig
-canonical: https://kyriosdata.github.io/ig
+canonical: https://fhir.fabrica.inf.ufg.br/ig
 name: AnimalTerapeuta
 title: Guia de Implementação
 description: Ilustra criação de guias de implementação
