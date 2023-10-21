@@ -1,7 +1,10 @@
 # Guia de Implementação
 
 Um exemplo feito para ilustrar as
-atividades típicas de criação de um Guia de Implementação.
+atividades típicas de criação de um Guia de Implementação. O Guia já
+pronto e publicado, conforme o padrão, encontra-se em
+
+https://fhir.fabrica.inf.ufg.br/ig
 
 ## Importante
 
