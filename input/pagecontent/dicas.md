@@ -43,31 +43,32 @@ https://fhir.org/guides/registry/. Para tal, conforme as
 orientações em https://github.com/FHIR/ig-registry, foram realizados dois passos.
 
 Primeiro foi produzido o seguinte conteúdo, disponível no
-diretório **ig** do repositório empregado para criação
-do guia: https://github.com/kyriosdata/profiling.
+repositório empregado para criação
+do guia: https://github.com/kyriosdata/ig.
 
 ````
 {
-  "name": "Animal terapeuta (não humano)",
+  "name": "Animal (não humano) terapeuta",
   "category": "Research",
   "npm-name": "animal.terapeuta",
-  "description": "Cadastro de animais terapeutas visando a facilidade de localização deles pelas habilidades.",
+  "description": "Cadastro de animais terapeutas visando a localização pelas habilidades.",
   "authority": "CGIS (UFG)",
   "country": "br",
-  "history": "https://kyriosdata.github.io/profiling/history.html",
+  "history": "https://fhir.fabrica.inf.ufg.br/ig/history.html",
   "language": ["pt"],
-  "canonical": "https://kyriosdata.github.io/profiling",
-  "ci-build": "https://kyriosdata.github.io/profiling",
+  "canonical": "https://fhir.fabrica.inf.ufg.br/ig",
+  "ci-build": "https://build.fhir.org/ig/kyriosdata/ig/",
   "editions": [
     {
       "name": "Releases",
-      "ig-version": "0.1.0",
-      "package": "animal.terapeuta#0.1.0",
+      "ig-version": "0.0.1",
+      "package": "animal.terapeuta#0.0.1",
       "fhir-version": ["4.0.1"],
-      "url": "https://kyriosdata.github.io/profiling"
+      "url": "https://fhir.fabrica.inf.ufg.br/ig"
     }
   ]
-}```
+}
+```
 
 Segundo e último. Requisitado o acréscimo desta informação via pull request,
 conforme [aqui](https://github.com/FHIR/ig-registry/pull/212#event-10378476168). Neste link também se observa que a requisição foi aprovada.
