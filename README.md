@@ -9,22 +9,23 @@ https://fhir.fabrica.inf.ufg.br/ig
 ## Importante
 
 O cenário contemplado pelo presente guia é hipotético, isto
-facilitou a criação do Guia, que não teve que contemplar
-um contexto real, profissionais de saúde e outros especialistas
-necessários, mas não consultados.
+facilitou a criação, pois não contemplou
+um contexto real, não envolveu profissionais de saúde e tampouco
+outros especialistas.
 
 ## Acompanhe por aqui...
 
 - Build mais recente deve estar aqui: https://build.fhir.org/ig/kyriosdata/ig/.
-- Pouco depois (o melhor possível no github pages): https://kyriosdata.github.io/ig
-
-## Registros disponíveis
-
-- Registrar repositório para build https://github.com/FHIR/auto-ig-builder
 - O projeto pode ser encontrado aqui: https://fshschool.org/fsh-finder/
 - Dashboard de build: https://fhir.github.io/auto-ig-builder/
+- Resultado do build: [chat zulip](https://chat.fhir.org/#narrow/stream/179297-committers.2Fnotification/topic/ig-build)
+- Pouco depois (o melhor possível no github pages): https://kyriosdata.github.io/ig
 
-## Publicação usando github pages
+## Como registrar?
+
+- Registrar repositório para build https://github.com/FHIR/auto-ig-builder
+
+## Publicação no github pages
 
 - Seja **ig** o diretório corrente (repositório)
 - Gerar versão do guia no diretório **output** (_\_genonce_)
