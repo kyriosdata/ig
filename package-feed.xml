@@ -2,23 +2,23 @@
   <channel>
     <title>CGIS (UFG) Packages</title>
     <description>Pacotes produzidos pela CGIS</description>
-    <link>https://github.com/kyriosdata/profiling/raw/main/ig/package-feed.xml</link>
+    <link>https://fhir.fabrica.inf.ufg.br/package-feed.xml</link>
     <generator>HL7, Inc FHIR Publication tooling</generator>
-    <lastBuildDate>Fri, 15 Sep 23 06:01:41 +0000</lastBuildDate>
-    <atom:link href="https://github.com/kyriosdata/profiling/raw/main/ig/package-feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Tue, 19 Dec 2023 12:27:10 +0000</lastBuildDate>
+    <atom:link href="https://fhir.fabrica.inf.ufg.br/package-feed.xml" rel="self" type="application/rss+xml"/>
     <pubDate>Fri, 15 Sep 23 06:01:41 +0000</pubDate>
     <language>pt</language>
     <ttl>600</ttl>
     <item>
-      <title>ufg.cgis.animal.terapeuta#0.1.1</title>
+      <title>ufg.cgis.animal.terapeuta#0.1.2</title>
       <description>Primeira liberação publicada</description>
-      <link>https://kyriosdata.github.io/profiling/package.tgz</link>
-      <guid isPermaLink="true">https://kyriosdata.github.io/profiling/package.tgz</guid>
+      <link>https://fhir.fabrica.inf.ufg.br/ig/site/package.tgz</link>
+      <guid isPermaLink="true">https://fhir.fabrica.inf.ufg.br/ig/site/package.tgz</guid>
       <dc:creator>HL7, Inc</dc:creator>
       <fhir:version>4.0.1</fhir:version>
       <fhir:kind>IG</fhir:kind>
-      <pubDate>Fri, 15 Sep 23 06:01:41 +0000</pubDate>
-      <fhir:details>Publicação do guia que orienta a ciração de guias de implementação. Trata-se de cenário hipotético.</fhir:details>
+      <pubDate>Tue, 19 Dec 2023 12:27:10 +0000</pubDate>
+      <fhir:details>Publicação do guia que orienta a criação de guias de implementação. Trata-se de cenário hipotético.</fhir:details>
     </item>
   </channel>
 </rss>
