@@ -7,7 +7,7 @@
   "history": "https://fhir.fabrica.inf.ufg.br/ig/history.html",
   "language": ["pt"],
   "canonical": "https://fhir.fabrica.inf.ufg.br/ig",
-  "ci-build": "https://build.fhir.org/ig/kyriosdata/ig/",
+  "ci-build": "https://fhir.fabrica.inf.ufg.br/ig/",
   "editions": [
     {
       "name": "Releases",
