@@ -3,13 +3,13 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
   <id value="cadastro-animal"/>
   <text>
-    <status value="empty"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+    <status value="empty"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Cadastro de Animal</h2>Nome dado ao código único atribuído a cada animal identificado no Brasil. Observe que se trata de um problema hipotético e que a solução, neste cado, não foi validade, trata-se apenas de uma especulação, uma possibilidade.</div>
   </text>
   <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url">
-    <valueUri value="https://kyriosdata.github.io/ig/NamingSystem/cadastro-animal"/>
+    <valueUri value="https://fhir.fabrica.inf.ufg.br/ig/NamingSystem/cadastro-animal"/>
   </extension>
   <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version">
-    <valueString value="0.0.1"/>
+    <valueString value="0.0.2"/>
   </extension>
   <name value="CadastroDeAnimal"/>
   <status value="active"/>

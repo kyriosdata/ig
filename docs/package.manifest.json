@@ -1,6 +1,6 @@
 {
-  "version" : "0.0.1",
+  "version" : "0.0.2",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20230918165800",
+  "date" : "20231221205859",
   "name" : "br.ufg.cgis.ig"
 }

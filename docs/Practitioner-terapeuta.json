@@ -2,7 +2,7 @@
   "resourceType" : "Practitioner",
   "id" : "terapeuta",
   "meta" : {
-    "profile" : ["https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta"]
+    "profile" : ["https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal-terapeuta"]
   },
   "text" : {
     "status" : "generated",
@@ -42,7 +42,7 @@
   "qualification" : [{
     "code" : {
       "coding" : [{
-        "system" : "https://kyriosdata.github.io/ig/CodeSystem/qualificacao",
+        "system" : "https://fhir.fabrica.inf.ufg.br/ig/CodeSystem/qualificacao",
         "code" : "alerta"
       }]
     }

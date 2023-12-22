@@ -3,10 +3,10 @@
 <OperationDefinition xmlns="http://hl7.org/fhir">
   <id value="qualification"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Busca por qualificação</div>
   </text>
-  <url value="https://kyriosdata.github.io/ig/OperationDefinition/qualification"/>
-  <version value="0.0.1"/>
+  <url value="https://fhir.fabrica.inf.ufg.br/ig/OperationDefinition/qualification"/>
+  <version value="0.0.2"/>
   <name value="LocalizaAnimalTerapeutaPorQualificacao"/>
   <title value="Definição de busca por qualificação de animal terapeuta"/>
   <status value="active"/>
@@ -47,7 +47,7 @@
     <type value="code"/>
     <binding>
       <strength value="required"/>
-      <valueSet value="https://kyriosdata.github.io/ig/ValueSet/vs-qualificacao"/>
+      <valueSet value="https://fhir.fabrica.inf.ufg.br/ig/ValueSet/vs-qualificacao"/>
     </binding>
   </parameter>
   <parameter>

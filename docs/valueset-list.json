@@ -1,0 +1,13 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://fhir.fabrica.inf.ufg.br/ig/ValueSet/vs-qualificacao",
+      "version" : "0.0.2",
+      "status" : "active",
+      "name" : "ValoresQualificacaoAnimalTerapeuta",
+      "title" : "Códigos válidos para qualificação de animal terapeuta",
+      "description" : "Códigos para designar capacidade de um animal terapeuta",
+      "systems" : ["https://fhir.fabrica.inf.ufg.br/ig/CodeSystem/qualificacao"]
+    }
+  ]
+}

@@ -3,7 +3,7 @@
 <Patient xmlns="http://hl7.org/fhir">
   <id value="romeu"/>
   <meta>
-    <profile value="https://kyriosdata.github.io/ig/StructureDefinition/animal"/>
+    <profile value="https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal"/>
   </meta>
   <text>
     <status value="empty"/><div xmlns="http://www.w3.org/1999/xhtml">Dr. Romeu</div>

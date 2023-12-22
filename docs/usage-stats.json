@@ -1,19 +1,19 @@
 {
   "package": "br.ufg.cgis.ig",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "fhirVersion": "4.0.1",
   "jurisdiction": "BR",
   "extensions": [],
   "profiles": {
     "Patient": [
       {
-        "url": "https://kyriosdata.github.io/ig/StructureDefinition/animal",
+        "url": "https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal",
         "title": "Animal não humano"
       }
     ],
     "Practitioner": [
       {
-        "url": "https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta",
+        "url": "https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal-terapeuta",
         "title": "Animal terapeuta"
       }
     ]
@@ -34,9 +34,6 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
       "StructureDefinition.snapshot.element.binding"
     ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
-      "StructureDefinition.snapshot.element.binding"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
     ],
@@ -48,9 +45,6 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/practitioner-animalSpecies": [
       "Practitioner"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
-      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
       "StructureDefinition.snapshot.element.type"

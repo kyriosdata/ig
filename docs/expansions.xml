@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="8ff1eecf-befa-47b2-92fc-6117d343a129"/>
+  <id value="38e4b1cd-e4cc-4873-b06a-61ddf80403d2"/>
   <meta>
-    <lastUpdated value="2023-09-18T16:59:10.408-03:00"/>
+    <lastUpdated value="2023-12-21T20:59:12.847-03:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="https://kyriosdata.github.io/ig/ValueSet/vs-qualificacao"/>
+    <fullUrl value="https://fhir.fabrica.inf.ufg.br/ig/ValueSet/vs-qualificacao"/>
     <resource>
       <ValueSet>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 5 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-qualificacao.html">codesystem Qualificação de animal terapeuta v0.0.1 (CodeSystem)</a>
+              <a href="CodeSystem-qualificacao.html">codesystem Qualificação de animal terapeuta v0.0.2 (CodeSystem)</a>
             </p>
+            <p>This value set contains 5 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -34,10 +34,10 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---kyriosdata.github.io-ig-CodeSystem-qualificacao-emocional"> </a>  
+                  <a name="https---fhir.fabrica.inf.ufg.br-ig-CodeSystem-qualificacao-emocional"> </a>  
                   <a href="CodeSystem-qualificacao.html#qualificacao-emocional">emocional</a>
                 </td>
-                <td>https://kyriosdata.github.io/ig/CodeSystem/qualificacao</td>
+                <td>https://fhir.fabrica.inf.ufg.br/ig/CodeSystem/qualificacao</td>
                 <td>Emocional</td>
                 <td>
                   <div>
@@ -48,10 +48,10 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---kyriosdata.github.io-ig-CodeSystem-qualificacao-terapia"> </a>  
+                  <a name="https---fhir.fabrica.inf.ufg.br-ig-CodeSystem-qualificacao-terapia"> </a>  
                   <a href="CodeSystem-qualificacao.html#qualificacao-terapia">terapia</a>
                 </td>
-                <td>https://kyriosdata.github.io/ig/CodeSystem/qualificacao</td>
+                <td>https://fhir.fabrica.inf.ufg.br/ig/CodeSystem/qualificacao</td>
                 <td>Animal para terapia</td>
                 <td>
                   <div>
@@ -62,10 +62,10 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---kyriosdata.github.io-ig-CodeSystem-qualificacao-servico"> </a>  
+                  <a name="https---fhir.fabrica.inf.ufg.br-ig-CodeSystem-qualificacao-servico"> </a>  
                   <a href="CodeSystem-qualificacao.html#qualificacao-servico">servico</a>
                 </td>
-                <td>https://kyriosdata.github.io/ig/CodeSystem/qualificacao</td>
+                <td>https://fhir.fabrica.inf.ufg.br/ig/CodeSystem/qualificacao</td>
                 <td>Serviço</td>
                 <td>
                   <div>
@@ -76,10 +76,10 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---kyriosdata.github.io-ig-CodeSystem-qualificacao-detector"> </a>  
+                  <a name="https---fhir.fabrica.inf.ufg.br-ig-CodeSystem-qualificacao-detector"> </a>  
                   <a href="CodeSystem-qualificacao.html#qualificacao-detector">detector</a>
                 </td>
-                <td>https://kyriosdata.github.io/ig/CodeSystem/qualificacao</td>
+                <td>https://fhir.fabrica.inf.ufg.br/ig/CodeSystem/qualificacao</td>
                 <td>Detector de doenças</td>
                 <td>
                   <div>
@@ -90,10 +90,10 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---kyriosdata.github.io-ig-CodeSystem-qualificacao-alerta"> </a>  
+                  <a name="https---fhir.fabrica.inf.ufg.br-ig-CodeSystem-qualificacao-alerta"> </a>  
                   <a href="CodeSystem-qualificacao.html#qualificacao-alerta">alerta</a>
                 </td>
-                <td>https://kyriosdata.github.io/ig/CodeSystem/qualificacao</td>
+                <td>https://fhir.fabrica.inf.ufg.br/ig/CodeSystem/qualificacao</td>
                 <td>Alerta</td>
                 <td>
                   <div>
@@ -105,13 +105,13 @@
             </table>
           </div>
         </text>
-        <url value="https://kyriosdata.github.io/ig/ValueSet/vs-qualificacao"/>
-        <version value="0.0.1"/>
+        <url value="https://fhir.fabrica.inf.ufg.br/ig/ValueSet/vs-qualificacao"/>
+        <version value="0.0.2"/>
         <name value="ValoresQualificacaoAnimalTerapeuta"/>
         <title value="Códigos válidos para qualificação de animal terapeuta"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2023-09-18T16:59:10-03:00"/>
+        <date value="2023-12-21T20:59:12-03:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -119,8 +119,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2b75d272-c33e-4a44-bd07-88cebbc2065b"/>
-          <timestamp value="2023-09-18T16:59:30-03:00"/>
+          <identifier value="urn:uuid:07d30146-9b46-499d-92e2-1e9b7b908ebb"/>
+          <timestamp value="2023-12-21T20:59:19-03:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -128,30 +128,30 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="https://kyriosdata.github.io/ig/CodeSystem/qualificacao|0.0.1"/>
+            <valueUri value="https://fhir.fabrica.inf.ufg.br/ig/CodeSystem/qualificacao|0.0.2"/>
           </parameter>
           <contains>
-            <system value="https://kyriosdata.github.io/ig/CodeSystem/qualificacao"/>
+            <system value="https://fhir.fabrica.inf.ufg.br/ig/CodeSystem/qualificacao"/>
             <code value="emocional"/>
             <display value="Emocional"/>
           </contains>
           <contains>
-            <system value="https://kyriosdata.github.io/ig/CodeSystem/qualificacao"/>
+            <system value="https://fhir.fabrica.inf.ufg.br/ig/CodeSystem/qualificacao"/>
             <code value="terapia"/>
             <display value="Animal para terapia"/>
           </contains>
           <contains>
-            <system value="https://kyriosdata.github.io/ig/CodeSystem/qualificacao"/>
+            <system value="https://fhir.fabrica.inf.ufg.br/ig/CodeSystem/qualificacao"/>
             <code value="servico"/>
             <display value="Serviço"/>
           </contains>
           <contains>
-            <system value="https://kyriosdata.github.io/ig/CodeSystem/qualificacao"/>
+            <system value="https://fhir.fabrica.inf.ufg.br/ig/CodeSystem/qualificacao"/>
             <code value="detector"/>
             <display value="Detector de doenças"/>
           </contains>
           <contains>
-            <system value="https://kyriosdata.github.io/ig/CodeSystem/qualificacao"/>
+            <system value="https://fhir.fabrica.inf.ufg.br/ig/CodeSystem/qualificacao"/>
             <code value="alerta"/>
             <display value="Alerta"/>
           </contains>

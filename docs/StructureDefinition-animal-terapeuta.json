@@ -3,14 +3,14 @@
   "id" : "animal-terapeuta",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Animal terapeuta</div>"
   },
-  "url" : "https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta",
-  "version" : "0.0.1",
+  "url" : "https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal-terapeuta",
+  "version" : "0.0.2",
   "name" : "AnimalTerapeuta",
   "title" : "Animal terapeuta",
   "status" : "active",
-  "date" : "2023-09-18T16:59:10-03:00",
+  "date" : "2023-12-21T20:59:12-03:00",
   "publisher" : "CGIS",
   "contact" : [{
     "name" : "CGIS",
@@ -122,7 +122,7 @@
         "severity" : "error",
         "human" : "Endereço não pode ser para uso financeiro",
         "expression" : "address.where(use = 'billing').empty()",
-        "source" : "https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta"
+        "source" : "https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal-terapeuta"
       }],
       "isModifier" : false,
       "isSummary" : false,
@@ -254,10 +254,6 @@
         {
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
           "valueString" : "Language"
-        },
-        {
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
-          "valueBoolean" : true
         }],
         "strength" : "preferred",
         "description" : "A human language.",
@@ -827,10 +823,6 @@
         "extension" : [{
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
           "valueString" : "IdentifierType"
-        },
-        {
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
-          "valueBoolean" : true
         }],
         "strength" : "extensible",
         "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
@@ -1208,10 +1200,6 @@
         "extension" : [{
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
           "valueString" : "IdentifierType"
-        },
-        {
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
-          "valueBoolean" : true
         }],
         "strength" : "extensible",
         "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
@@ -1579,10 +1567,6 @@
         "extension" : [{
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
           "valueString" : "AdministrativeGender"
-        },
-        {
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
-          "valueBoolean" : true
         }],
         "strength" : "required",
         "description" : "The gender of a person used for administrative purposes.",
@@ -2198,7 +2182,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://kyriosdata.github.io/ig/ValueSet/vs-qualificacao"
+        "valueSet" : "https://fhir.fabrica.inf.ufg.br/ig/ValueSet/vs-qualificacao"
       },
       "mapping" : [{
         "identity" : "v2",
@@ -2441,10 +2425,6 @@
         {
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
           "valueString" : "Language"
-        },
-        {
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
-          "valueBoolean" : true
         }],
         "strength" : "preferred",
         "description" : "A human language.",
@@ -2474,7 +2454,7 @@
         "severity" : "error",
         "human" : "Endereço não pode ser para uso financeiro",
         "expression" : "address.where(use = 'billing').empty()",
-        "source" : "https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta"
+        "source" : "https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal-terapeuta"
       }]
     },
     {
@@ -2599,7 +2579,7 @@
       "short" : "O código que identifica a qualificação do animal",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://kyriosdata.github.io/ig/ValueSet/vs-qualificacao"
+        "valueSet" : "https://fhir.fabrica.inf.ufg.br/ig/ValueSet/vs-qualificacao"
       }
     },
     {

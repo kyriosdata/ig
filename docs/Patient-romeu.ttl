@@ -5,13 +5,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://kyriosdata.github.io/ig/Patient/romeu> a fhir:Patient ;
+<https://fhir.fabrica.inf.ufg.br/ig/Patient/romeu> a fhir:Patient ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "romeu"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://kyriosdata.github.io/ig/StructureDefinition/animal"^^xsd:anyURI ;
-       fhir:link <https://kyriosdata.github.io/ig/StructureDefinition/animal>
+       fhir:v "https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal"^^xsd:anyURI ;
+       fhir:link <https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal>
      ] )
   ] ; # 
   fhir:text [
@@ -71,7 +71,7 @@
      ]
   ] ) ; # 
   fhir:generalPractitioner ( [
-     fhir:link <https://kyriosdata.github.io/ig/Organization/clinica-veterinaria> ;
+     fhir:link <https://fhir.fabrica.inf.ufg.br/ig/Organization/clinica-veterinaria> ;
      fhir:reference [ fhir:v "Organization/clinica-veterinaria" ]
   ] ) . # 
 

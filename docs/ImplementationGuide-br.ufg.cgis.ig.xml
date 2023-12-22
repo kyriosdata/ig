@@ -3,14 +3,15 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="br.ufg.cgis.ig"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>AnimalTerapeuta</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.fabrica.inf.ufg.br/ig/ImplementationGuide/br.ufg.cgis.ig</pre><div><p>Ilustra criação de guias de implementação</p>
+</div></div>
   </text>
-  <url value="https://kyriosdata.github.io/ig/ImplementationGuide/br.ufg.cgis.ig"/>
-  <version value="0.0.1"/>
+  <url value="https://fhir.fabrica.inf.ufg.br/ig/ImplementationGuide/br.ufg.cgis.ig"/>
+  <version value="0.0.2"/>
   <name value="AnimalTerapeuta"/>
   <title value="Guia de Implementação"/>
   <status value="draft"/>
-  <date value="2023-09-18T16:59:10-03:00"/>
+  <date value="2023-12-21T20:59:12-03:00"/>
   <publisher value="CGIS"/>
   <contact>
     <name value="CGIS"/>
@@ -127,7 +128,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="https://kyriosdata.github.io/ig/history.html"/>
+        <valueString value="https://fhir.fabrica.inf.ufg.br/ig/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -197,6 +198,14 @@
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
         <valueString value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-wg"/>
       </extension>
       <extension url="value">
         <valueString value="true"/>
@@ -322,7 +331,7 @@
         <valueCode value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="https://kyriosdata.github.io/ig/history.html"/>
+        <valueString value="https://fhir.fabrica.inf.ufg.br/ig/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -392,6 +401,14 @@
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
         <valueCode value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-wg"/>
       </extension>
       <extension url="value">
         <valueString value="true"/>
@@ -534,7 +551,7 @@
       </reference>
       <name value="romeu"/>
       <description value="Um exemplo de animal"/>
-      <exampleCanonical value="https://kyriosdata.github.io/ig/StructureDefinition/animal"/>
+      <exampleCanonical value="https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -545,7 +562,7 @@
       </reference>
       <name value="terapeuta"/>
       <description value="Um animal terapeuta não humano"/>
-      <exampleCanonical value="https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta"/>
+      <exampleCanonical value="https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal-terapeuta"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
@@ -576,6 +593,14 @@
         </extension>
         <nameUrl value="downloads.html"/>
         <title value="Downloads"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="history.html"/>
+        </extension>
+        <nameUrl value="history.html"/>
+        <title value="History"/>
         <generation value="markdown"/>
       </page>
     </page>

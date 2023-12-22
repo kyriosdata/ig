@@ -1,0 +1,12 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://fhir.fabrica.inf.ufg.br/ig/CodeSystem/qualificacao",
+      "version" : "0.0.2",
+      "status" : "active",
+      "name" : "QualificacaoAnimalTerapeuta",
+      "title" : "Qualificação de animal terapeuta",
+      "description" : "Vocabulário para designar as capacidades de um animal terapeuta"
+    }
+  ]
+}
