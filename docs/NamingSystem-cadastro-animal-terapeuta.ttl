@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://kyriosdata.github.io/ig/NamingSystem/cadastro-animal-terapeuta> a fhir:NamingSystem ;
+<https://fhir.fabrica.inf.ufg.br/ig/NamingSystem/cadastro-animal-terapeuta> a fhir:NamingSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "cadastro-animal-terapeuta"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Animal terapeuta</div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "https://kyriosdata.github.io/ig/NamingSystem/cadastro-animal-terapeuta"^^xsd:anyURI ]
+     fhir:value [ fhir:v "https://fhir.fabrica.inf.ufg.br/ig/NamingSystem/cadastro-animal-terapeuta"^^xsd:anyURI ]
   ] [
      fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "0.0.1" ]
+     fhir:value [ fhir:v "0.0.2" ]
   ] ) ; # 
   fhir:name [ fhir:v "CadastroAnimalTerapeuta"] ; # 
   fhir:status [ fhir:v "active"] ; # 

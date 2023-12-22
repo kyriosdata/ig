@@ -1,0 +1,3 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://hl7.org/fhir/ValueSet/animal-species,4.0.1,draft,"2.16.840.1.113883.4.642.3.420",AnimalSpecies,Animal species,"This example value set defines a set of codes that can be used to indicate species of animal patients.","StructureDefinition/animal-terapeuta","SCT"
+https://fhir.fabrica.inf.ufg.br/ig/ValueSet/vs-qualificacao,0.0.2,active,,ValoresQualificacaoAnimalTerapeuta,Códigos válidos para qualificação de animal terapeuta,"Códigos para designar capacidade de um animal terapeuta","StructureDefinition/animal-terapeuta,OperationDefinition/qualification","Internal"

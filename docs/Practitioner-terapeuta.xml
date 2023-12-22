@@ -3,7 +3,7 @@
 <Practitioner xmlns="http://hl7.org/fhir">
   <id value="terapeuta"/>
   <meta>
-    <profile value="https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta"/>
+    <profile value="https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal-terapeuta"/>
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Dr. Romeu</div>
@@ -41,7 +41,7 @@
   <qualification>
     <code>
       <coding>
-        <system value="https://kyriosdata.github.io/ig/CodeSystem/qualificacao"/>
+        <system value="https://fhir.fabrica.inf.ufg.br/ig/CodeSystem/qualificacao"/>
         <code value="alerta"/>
       </coding>
     </code>

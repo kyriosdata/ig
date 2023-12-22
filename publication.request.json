@@ -12,8 +12,8 @@
   "editions": [
     {
       "name": "Releases",
-      "ig-version": "0.0.1",
-      "package": "animal.terapeuta#0.0.1",
+      "ig-version": "0.0.2",
+      "package": "animal.terapeuta#0.0.2",
       "fhir-version": ["4.0.1"],
       "url": "https://fhir.fabrica.inf.ufg.br/ig"
     }

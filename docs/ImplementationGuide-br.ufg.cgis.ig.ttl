@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://kyriosdata.github.io/ig/ImplementationGuide/br.ufg.cgis.ig> a fhir:ImplementationGuide ;
+<https://fhir.fabrica.inf.ufg.br/ig/ImplementationGuide/br.ufg.cgis.ig> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "br.ufg.cgis.ig"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>AnimalTerapeuta</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.fabrica.inf.ufg.br/ig/ImplementationGuide/br.ufg.cgis.ig</pre><div><p>Ilustra criação de guias de implementação</p>\n</div></div>"
   ] ; # 
-  fhir:url [ fhir:v "https://kyriosdata.github.io/ig/ImplementationGuide/br.ufg.cgis.ig"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.0.1"] ; # 
+  fhir:url [ fhir:v "https://fhir.fabrica.inf.ufg.br/ig/ImplementationGuide/br.ufg.cgis.ig"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.0.2"] ; # 
   fhir:name [ fhir:v "AnimalTerapeuta"] ; # 
   fhir:title [ fhir:v "Guia de Implementação"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-09-18T16:59:10-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-21T20:59:12-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "CGIS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "CGIS" ] ;
@@ -152,7 +152,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "https://kyriosdata.github.io/ig/history.html" ]
+         fhir:value [ fhir:v "https://fhir.fabrica.inf.ufg.br/ig/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -231,6 +231,15 @@
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "apply-version" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-wg" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "true" ]
@@ -371,7 +380,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "https://kyriosdata.github.io/ig/history.html" ]
+         fhir:value [ fhir:v "https://fhir.fabrica.inf.ufg.br/ig/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -458,6 +467,15 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-wg" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "active-tables" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
@@ -507,7 +525,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://kyriosdata.github.io/ig/StructureDefinition/animal> ;
+         fhir:link <https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal> ;
          fhir:reference [ fhir:v "StructureDefinition/animal" ]
        ] ;
        fhir:name [ fhir:v "Animal não humano" ] ;
@@ -519,7 +537,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta> ;
+         fhir:link <https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal-terapeuta> ;
          fhir:reference [ fhir:v "StructureDefinition/animal-terapeuta" ]
        ] ;
        fhir:name [ fhir:v "Animal terapeuta" ] ;
@@ -531,7 +549,7 @@
          fhir:value [ fhir:v "NamingSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://kyriosdata.github.io/ig/NamingSystem/cadastro-animal> ;
+         fhir:link <https://fhir.fabrica.inf.ufg.br/ig/NamingSystem/cadastro-animal> ;
          fhir:reference [ fhir:v "NamingSystem/cadastro-animal" ]
        ] ;
        fhir:name [ fhir:v "cadastro-animal" ] ;
@@ -543,7 +561,7 @@
          fhir:value [ fhir:v "NamingSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://kyriosdata.github.io/ig/NamingSystem/cadastro-animal-terapeuta> ;
+         fhir:link <https://fhir.fabrica.inf.ufg.br/ig/NamingSystem/cadastro-animal-terapeuta> ;
          fhir:reference [ fhir:v "NamingSystem/cadastro-animal-terapeuta" ]
        ] ;
        fhir:name [ fhir:v "cadastro-animal-terapeuta" ] ;
@@ -555,7 +573,7 @@
          fhir:value [ fhir:v "Organization" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://kyriosdata.github.io/ig/Organization/clinica-veterinaria> ;
+         fhir:link <https://fhir.fabrica.inf.ufg.br/ig/Organization/clinica-veterinaria> ;
          fhir:reference [ fhir:v "Organization/clinica-veterinaria" ]
        ] ;
        fhir:name [ fhir:v "Clínica Veterinária Animal Feliz" ] ;
@@ -567,7 +585,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://kyriosdata.github.io/ig/ValueSet/vs-qualificacao> ;
+         fhir:link <https://fhir.fabrica.inf.ufg.br/ig/ValueSet/vs-qualificacao> ;
          fhir:reference [ fhir:v "ValueSet/vs-qualificacao" ]
        ] ;
        fhir:name [ fhir:v "Códigos válidos para qualificação de animal terapeuta" ] ;
@@ -579,7 +597,7 @@
          fhir:value [ fhir:v "OperationDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://kyriosdata.github.io/ig/OperationDefinition/qualification> ;
+         fhir:link <https://fhir.fabrica.inf.ufg.br/ig/OperationDefinition/qualification> ;
          fhir:reference [ fhir:v "OperationDefinition/qualification" ]
        ] ;
        fhir:name [ fhir:v "Definição de busca por qualificação de animal terapeuta" ] ;
@@ -591,7 +609,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://kyriosdata.github.io/ig/CodeSystem/qualificacao> ;
+         fhir:link <https://fhir.fabrica.inf.ufg.br/ig/CodeSystem/qualificacao> ;
          fhir:reference [ fhir:v "CodeSystem/qualificacao" ]
        ] ;
        fhir:name [ fhir:v "Qualificação de animal terapeuta" ] ;
@@ -603,14 +621,14 @@
          fhir:value [ fhir:v "Patient" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://kyriosdata.github.io/ig/Patient/romeu> ;
+         fhir:link <https://fhir.fabrica.inf.ufg.br/ig/Patient/romeu> ;
          fhir:reference [ fhir:v "Patient/romeu" ]
        ] ;
        fhir:name [ fhir:v "romeu" ] ;
        fhir:description [ fhir:v "Um exemplo de animal" ] ;
        fhir:example [
-         fhir:v "https://kyriosdata.github.io/ig/StructureDefinition/animal"^^xsd:anyURI ;
-         fhir:link <https://kyriosdata.github.io/ig/StructureDefinition/animal>
+         fhir:v "https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal"^^xsd:anyURI ;
+         fhir:link <https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal>
        ]
      ] [
        fhir:extension ( [
@@ -618,14 +636,14 @@
          fhir:value [ fhir:v "Practitioner" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://kyriosdata.github.io/ig/Practitioner/terapeuta> ;
+         fhir:link <https://fhir.fabrica.inf.ufg.br/ig/Practitioner/terapeuta> ;
          fhir:reference [ fhir:v "Practitioner/terapeuta" ]
        ] ;
        fhir:name [ fhir:v "terapeuta" ] ;
        fhir:description [ fhir:v "Um animal terapeuta não humano" ] ;
        fhir:example [
-         fhir:v "https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta"^^xsd:anyURI ;
-         fhir:link <https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta>
+         fhir:v "https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal-terapeuta"^^xsd:anyURI ;
+         fhir:link <https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal-terapeuta>
        ]
      ] ) ;
      fhir:page [
@@ -659,6 +677,14 @@
          ] ) ;
          fhir:name [ fhir:v "downloads.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Downloads" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "history.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "history.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "History" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;

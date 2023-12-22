@@ -2,57 +2,57 @@
   {
     "id" : "qualificacao",
     "type" : "CodeSystem",
-    "url" : "https://kyriosdata.github.io/ig/CodeSystem/qualificacao",
-    "version" : "0.0.1",
+    "url" : "https://fhir.fabrica.inf.ufg.br/ig/CodeSystem/qualificacao",
+    "version" : "0.0.2",
     "name" : "QualificacaoAnimalTerapeuta"
   },
   {
     "id" : "br.ufg.cgis.ig",
     "type" : "ImplementationGuide",
-    "url" : "https://kyriosdata.github.io/ig/ImplementationGuide/br.ufg.cgis.ig",
-    "version" : "0.0.1",
+    "url" : "https://fhir.fabrica.inf.ufg.br/ig/ImplementationGuide/br.ufg.cgis.ig",
+    "version" : "0.0.2",
     "name" : "AnimalTerapeuta"
   },
   {
     "id" : "cadastro-animal",
     "type" : "NamingSystem",
-    "url" : "https://kyriosdata.github.io/ig/NamingSystem/cadastro-animal",
-    "version" : "0.0.1",
+    "url" : "https://fhir.fabrica.inf.ufg.br/ig/NamingSystem/cadastro-animal",
+    "version" : "0.0.2",
     "name" : "CadastroDeAnimal"
   },
   {
     "id" : "cadastro-animal-terapeuta",
     "type" : "NamingSystem",
-    "url" : "https://kyriosdata.github.io/ig/NamingSystem/cadastro-animal-terapeuta",
-    "version" : "0.0.1",
+    "url" : "https://fhir.fabrica.inf.ufg.br/ig/NamingSystem/cadastro-animal-terapeuta",
+    "version" : "0.0.2",
     "name" : "CadastroAnimalTerapeuta"
   },
   {
     "id" : "qualification",
     "type" : "OperationDefinition",
-    "url" : "https://kyriosdata.github.io/ig/OperationDefinition/qualification",
-    "version" : "0.0.1",
+    "url" : "https://fhir.fabrica.inf.ufg.br/ig/OperationDefinition/qualification",
+    "version" : "0.0.2",
     "name" : "LocalizaAnimalTerapeutaPorQualificacao"
   },
   {
     "id" : "animal",
     "type" : "StructureDefinition",
-    "url" : "https://kyriosdata.github.io/ig/StructureDefinition/animal",
-    "version" : "0.0.1",
+    "url" : "https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal",
+    "version" : "0.0.2",
     "name" : "Animal"
   },
   {
     "id" : "animal-terapeuta",
     "type" : "StructureDefinition",
-    "url" : "https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta",
-    "version" : "0.0.1",
+    "url" : "https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal-terapeuta",
+    "version" : "0.0.2",
     "name" : "AnimalTerapeuta"
   },
   {
     "id" : "vs-qualificacao",
     "type" : "ValueSet",
-    "url" : "https://kyriosdata.github.io/ig/ValueSet/vs-qualificacao",
-    "version" : "0.0.1",
+    "url" : "https://fhir.fabrica.inf.ufg.br/ig/ValueSet/vs-qualificacao",
+    "version" : "0.0.2",
     "name" : "ValoresQualificacaoAnimalTerapeuta"
   }
 ]

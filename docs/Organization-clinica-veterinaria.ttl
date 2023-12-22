@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://kyriosdata.github.io/ig/Organization/clinica-veterinaria> a fhir:Organization ;
+<https://fhir.fabrica.inf.ufg.br/ig/Organization/clinica-veterinaria> a fhir:Organization ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "clinica-veterinaria"] ; # 
   fhir:text [

@@ -2,7 +2,7 @@
   "resourceType" : "Patient",
   "id" : "romeu",
   "meta" : {
-    "profile" : ["https://kyriosdata.github.io/ig/StructureDefinition/animal"]
+    "profile" : ["https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal"]
   },
   "text" : {
     "status" : "empty",

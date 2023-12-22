@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Dicas - Guia de Implementação v0.0.1</title>
+    <title>Dicas - Guia de Implementação v0.0.2</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -49,7 +49,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Guia de Implementação</span>
             <br/>
-            <span style="display:inline-block;">0.0.1 - ci-build
+            <span style="display:inline-block;">0.0.2 - ci-build
 
 
 
@@ -124,7 +124,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Guia de Implementação - Local Development build (v0.0.1). See the <a href="https://kyriosdata.github.io/ig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Guia de Implementação - Local Development build (v0.0.2) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://fhir.fabrica.inf.ufg.br/ig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Dicas</h2>
   
 
@@ -165,14 +165,17 @@ acessado em <a href="https://build.fhir.org/ig/kyriosdata/ig/">https://build.fhi
 
 <h3 id="ferramentas">Ferramentas</h3>
 
+<p>O conjunto de ferramentas abaixo é suficiente para produzir os artefatos que fazem parte de um Guia de Implementação e, adicionalmente, gerar o portal correspondente.</p>
+
 <ul>
   <li>Editor de FHIR Shorthand (fsh). A sugestão é o <a href="https://code.visualstudio.com/">Visual Code</a> e as extensões FHIR Shorthand (<a href="https://marketplace.visualstudio.com/items?itemName=MITRE-Health.vscode-language-fsh">aqui</a>) e FHIR Tools (<a href="https://marketplace.visualstudio.com/items?itemName=Yannick-Lagger.vscode-fhir-tools#:~:text=Vscode%2Dfhir%2Dtools%20is%20an,with%20the%20permission%20of%20HL7.">aqui</a>).</li>
-  <li>Plataformas empregadas por várias ferramentas: (a) <a href="https://nodejs.org/en">Node.js</a> e (b) Java, pelo menos a versão 17 (<a href="https://adoptium.net/">aqui</a>).</li>
-  <li>Instalar Sushi (npm install -g fsh-sushi)</li>
+  <li>Plataformas utilizadas: (a) <a href="https://nodejs.org/en">Node.js</a> (inclui <em>npm</em>) e (b) Java, pelo menos a versão 17 (<a href="https://adoptium.net/">aqui</a>).</li>
+  <li>Apache Maven (<a href="https://maven.apache.org/">aqui</a>)</li>
+  <li>Instalar Sushi (<code class="language-plaintext highlighter-rouge">npm install -g fsh-sushi</code>)</li>
   <li>Clientes para montagem e execução de requisições http(s): <a href="https://httpie.io/cli">httpie</a> para linha de comandos e <a href="https://www.postman.com/">Postman</a> aplicativo gráfico.</li>
   <li>Instalar Ruby e Jekyll (veja <a href="https://jekyllrb.com/docs/installation/#guides">aqui</a>).</li>
-  <li>Instalar FHIRPath (npm install -g fhirpath). Documentação de uso <a href="https://github.com/hl7/fhirpath.js/">aqui</a>.</li>
-  <li>Instalar o validador (validator_cli.jar). Documentação de uso <a href="https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator">aqui</a>.</li>
+  <li>Instalar FHIRPath (<code class="language-plaintext highlighter-rouge">npm install -g fhirpath</code>). Documentação de uso <a href="https://github.com/hl7/fhirpath.js/">aqui</a>.</li>
+  <li>Instalar o validador (<em>validator_cli.jar</em>). Documentação de uso <a href="https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator">aqui</a>.</li>
   <li>Instalar o IG Publisher (<a href="https://github.com/HL7/fhir-ig-publisher">publisher</a>). Documentação de uso <a href="https://confluence.hl7.org/display/FHIR/IG+Publisher+Documentation">aqui</a>.</li>
 </ul>
 
@@ -193,30 +196,31 @@ https://fhir.org/guides/registry/. Para tal, conforme as
 orientações em https://github.com/FHIR/ig-registry, foram realizados dois passos.</p>
 
 <p>Primeiro foi produzido o seguinte conteúdo, disponível no
-diretório <strong>ig</strong> do repositório empregado para criação
-do guia: https://github.com/kyriosdata/profiling.</p>
+repositório empregado para criação
+do guia: https://github.com/kyriosdata/ig.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
-  "name": "Animal terapeuta (não humano)",
+  "name": "Animal (não humano) terapeuta",
   "category": "Research",
   "npm-name": "animal.terapeuta",
-  "description": "Cadastro de animais terapeutas visando a facilidade de localização deles pelas habilidades.",
+  "description": "Cadastro de animais terapeutas visando a localização pelas habilidades.",
   "authority": "CGIS (UFG)",
   "country": "br",
-  "history": "https://kyriosdata.github.io/profiling/history.html",
+  "history": "https://fhir.fabrica.inf.ufg.br/ig/history.html",
   "language": ["pt"],
-  "canonical": "https://kyriosdata.github.io/profiling",
-  "ci-build": "https://kyriosdata.github.io/profiling",
+  "canonical": "https://fhir.fabrica.inf.ufg.br/ig",
+  "ci-build": "https://build.fhir.org/ig/kyriosdata/ig/",
   "editions": [
     {
       "name": "Releases",
-      "ig-version": "0.1.0",
-      "package": "animal.terapeuta#0.1.0",
+      "ig-version": "0.0.1",
+      "package": "animal.terapeuta#0.0.1",
       "fhir-version": ["4.0.1"],
-      "url": "https://kyriosdata.github.io/profiling"
+      "url": "https://fhir.fabrica.inf.ufg.br/ig"
     }
   ]
-}```
+}
+```
 
 Segundo e último. Requisitado o acréscimo desta informação via pull request,
 conforme [aqui](https://github.com/FHIR/ig-registry/pull/212#event-10378476168). Neste link também se observa que a requisição foi aprovada.
@@ -250,7 +254,7 @@ Após estes passos pode-se localizar o presente guia no registro
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://cgis.ufg.br/">CGIS</a>.  Package br.ufg.cgis.ig#0.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Sep 18, 2023 16:59-0300">2023-09-18</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://cgis.ufg.br/">CGIS</a>.  Package br.ufg.cgis.ig#0.0.2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Dec 21, 2023 20:59-0300">2023-12-21</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

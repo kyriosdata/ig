@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://kyriosdata.github.io/ig/Practitioner/terapeuta> a fhir:Practitioner ;
+<https://fhir.fabrica.inf.ufg.br/ig/Practitioner/terapeuta> a fhir:Practitioner ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "terapeuta"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta"^^xsd:anyURI ;
-       fhir:link <https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta>
+       fhir:v "https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal-terapeuta"^^xsd:anyURI ;
+       fhir:link <https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal-terapeuta>
      ] )
   ] ; # 
   fhir:text [
@@ -54,7 +54,7 @@
   fhir:qualification ( [
      fhir:code [
        fhir:coding ( [
-         fhir:system [ fhir:v "https://kyriosdata.github.io/ig/CodeSystem/qualificacao"^^xsd:anyURI ] ;
+         fhir:system [ fhir:v "https://fhir.fabrica.inf.ufg.br/ig/CodeSystem/qualificacao"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "alerta" ]
        ] )
      ]

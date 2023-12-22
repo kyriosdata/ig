@@ -3,15 +3,15 @@
   "id" : "vs-qualificacao",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Códigos para habilidades de animais terapeutas</div>"
   },
-  "url" : "https://kyriosdata.github.io/ig/ValueSet/vs-qualificacao",
-  "version" : "0.0.1",
+  "url" : "https://fhir.fabrica.inf.ufg.br/ig/ValueSet/vs-qualificacao",
+  "version" : "0.0.2",
   "name" : "ValoresQualificacaoAnimalTerapeuta",
   "title" : "Códigos válidos para qualificação de animal terapeuta",
   "status" : "active",
   "experimental" : true,
-  "date" : "2023-09-18T16:59:10-03:00",
+  "date" : "2023-12-21T20:59:12-03:00",
   "publisher" : "CGIS",
   "contact" : [{
     "name" : "CGIS",
@@ -33,7 +33,7 @@
   }],
   "compose" : {
     "include" : [{
-      "system" : "https://kyriosdata.github.io/ig/CodeSystem/qualificacao"
+      "system" : "https://fhir.fabrica.inf.ufg.br/ig/CodeSystem/qualificacao"
     }]
   }
 }

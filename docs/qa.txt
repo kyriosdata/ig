@@ -2,34 +2,34 @@
 =========================================
 
 err = 0, warn = 4, info = 0
-IG Publisher Version: 1.4.6
-Generated Mon Sep 18 16:59:50 BRT 2023. FHIR version 4.0.1 for br.ufg.cgis.ig#0.0.1 (canonical = https://kyriosdata.github.io/ig)
+IG Publisher Version: 1.5.8
+Generated Thu Dec 21 20:59:24 BRT 2023. FHIR version 4.0.1 for br.ufg.cgis.ig#0.0.2 (canonical = https://fhir.fabrica.inf.ufg.br/ig)
  Build Errors : 0 / 4 / 0
- C:\Users\fabio\ig\fsh-generated\resources\CodeSystem-qualificacao : 0 / 0 / 1
- C:\Users\fabio\ig\fsh-generated\resources\ImplementationGuide-br.ufg.cgis.ig : 0 / 0 / 1
- C:\Users\fabio\ig\fsh-generated\resources\NamingSystem-cadastro-animal : 0 / 0 / 1
- C:\Users\fabio\ig\fsh-generated\resources\NamingSystem-cadastro-animal-terapeuta : 0 / 0 / 1
- C:\Users\fabio\ig\fsh-generated\resources\OperationDefinition-qualification : 0 / 0 / 1
- C:\Users\fabio\ig\fsh-generated\resources\Organization-clinica-veterinaria : 0 / 0 / 1
- C:\Users\fabio\ig\fsh-generated\resources\Patient-romeu : 0 / 0 / 1
- C:\Users\fabio\ig\fsh-generated\resources\Practitioner-terapeuta : 0 / 0 / 1
- C:\Users\fabio\ig\fsh-generated\resources\StructureDefinition-animal : 0 / 0 / 1
- C:\Users\fabio\ig\fsh-generated\resources\StructureDefinition-animal-terapeuta : 0 / 0 / 1
- C:\Users\fabio\ig\fsh-generated\resources\ValueSet-vs-qualificacao : 0 / 0 / 1
+ /home/murilo/projetos/ig/fsh-generated/resources/CodeSystem-qualificacao : 0 / 0 / 1
+ /home/murilo/projetos/ig/fsh-generated/resources/ImplementationGuide-br.ufg.cgis.ig : 0 / 0 / 1
+ /home/murilo/projetos/ig/fsh-generated/resources/NamingSystem-cadastro-animal : 0 / 0 / 1
+ /home/murilo/projetos/ig/fsh-generated/resources/NamingSystem-cadastro-animal-terapeuta : 0 / 0 / 1
+ /home/murilo/projetos/ig/fsh-generated/resources/OperationDefinition-qualification : 0 / 0 / 1
+ /home/murilo/projetos/ig/fsh-generated/resources/Organization-clinica-veterinaria : 0 / 0 / 1
+ /home/murilo/projetos/ig/fsh-generated/resources/Patient-romeu : 0 / 0 / 1
+ /home/murilo/projetos/ig/fsh-generated/resources/Practitioner-terapeuta : 0 / 0 / 1
+ /home/murilo/projetos/ig/fsh-generated/resources/StructureDefinition-animal : 0 / 0 / 1
+ /home/murilo/projetos/ig/fsh-generated/resources/StructureDefinition-animal-terapeuta : 0 / 0 / 1
+ /home/murilo/projetos/ig/fsh-generated/resources/ValueSet-vs-qualificacao : 0 / 0 / 1
 </table>
 == n/a ==
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
-== fsh-generated\resources\CodeSystem-qualificacao.json ==
-== fsh-generated\resources\ImplementationGuide-br.ufg.cgis.ig.json ==
-== fsh-generated\resources\NamingSystem-cadastro-animal.json ==
-== fsh-generated\resources\NamingSystem-cadastro-animal-terapeuta.json ==
-== fsh-generated\resources\OperationDefinition-qualification.json ==
-== fsh-generated\resources\Organization-clinica-veterinaria.json ==
-== fsh-generated\resources\Patient-romeu.json ==
-== fsh-generated\resources\Practitioner-terapeuta.json ==
-== fsh-generated\resources\StructureDefinition-animal.json ==
-== fsh-generated\resources\StructureDefinition-animal-terapeuta.json ==
-== fsh-generated\resources\ValueSet-vs-qualificacao.json ==
+== fsh-generated/resources/CodeSystem-qualificacao.json ==
+== fsh-generated/resources/ImplementationGuide-br.ufg.cgis.ig.json ==
+== fsh-generated/resources/NamingSystem-cadastro-animal.json ==
+== fsh-generated/resources/NamingSystem-cadastro-animal-terapeuta.json ==
+== fsh-generated/resources/OperationDefinition-qualification.json ==
+== fsh-generated/resources/Organization-clinica-veterinaria.json ==
+== fsh-generated/resources/Patient-romeu.json ==
+== fsh-generated/resources/Practitioner-terapeuta.json ==
+== fsh-generated/resources/StructureDefinition-animal.json ==
+== fsh-generated/resources/StructureDefinition-animal-terapeuta.json ==
+== fsh-generated/resources/ValueSet-vs-qualificacao.json ==

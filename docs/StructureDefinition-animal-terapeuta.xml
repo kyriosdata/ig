@@ -3,14 +3,14 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="animal-terapeuta"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Animal terapeuta</div>
   </text>
-  <url value="https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta"/>
-  <version value="0.0.1"/>
+  <url value="https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal-terapeuta"/>
+  <version value="0.0.2"/>
   <name value="AnimalTerapeuta"/>
   <title value="Animal terapeuta"/>
   <status value="active"/>
-  <date value="2023-09-18T16:59:10-03:00"/>
+  <date value="2023-12-21T20:59:12-03:00"/>
   <publisher value="CGIS"/>
   <contact>
     <name value="CGIS"/>
@@ -119,7 +119,7 @@
         <severity value="error"/>
         <human value="Endereço não pode ser para uso financeiro"/>
         <expression value="address.where(use = 'billing').empty()"/>
-        <source value="https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta"/>
+        <source value="https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal-terapeuta"/>
       </constraint>
       <isModifier value="false"/>
       <isSummary value="false"/>
@@ -244,9 +244,6 @@
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="Language"/>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
-          <valueBoolean value="true"/>
         </extension>
         <strength value="preferred"/>
         <description value="A human language."/>
@@ -797,9 +794,6 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="IdentifierType"/>
         </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
-          <valueBoolean value="true"/>
-        </extension>
         <strength value="extensible"/>
         <description value="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/identifier-type"/>
@@ -1165,9 +1159,6 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="IdentifierType"/>
         </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
-          <valueBoolean value="true"/>
-        </extension>
         <strength value="extensible"/>
         <description value="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/identifier-type"/>
@@ -1524,9 +1515,6 @@
       <binding>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="AdministrativeGender"/>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
-          <valueBoolean value="true"/>
         </extension>
         <strength value="required"/>
         <description value="The gender of a person used for administrative purposes."/>
@@ -2122,7 +2110,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="https://kyriosdata.github.io/ig/ValueSet/vs-qualificacao"/>
+        <valueSet value="https://fhir.fabrica.inf.ufg.br/ig/ValueSet/vs-qualificacao"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -2356,9 +2344,6 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="Language"/>
         </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
-          <valueBoolean value="true"/>
-        </extension>
         <strength value="preferred"/>
         <description value="A human language."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/languages"/>
@@ -2386,7 +2371,7 @@
         <severity value="error"/>
         <human value="Endereço não pode ser para uso financeiro"/>
         <expression value="address.where(use = 'billing').empty()"/>
-        <source value="https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta"/>
+        <source value="https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal-terapeuta"/>
       </constraint>
     </element>
     <element id="Practitioner.extension">
@@ -2496,7 +2481,7 @@
       <short value="O código que identifica a qualificação do animal"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="https://kyriosdata.github.io/ig/ValueSet/vs-qualificacao"/>
+        <valueSet value="https://fhir.fabrica.inf.ufg.br/ig/ValueSet/vs-qualificacao"/>
       </binding>
     </element>
     <element id="Practitioner.communication">

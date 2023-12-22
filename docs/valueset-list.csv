@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+https://fhir.fabrica.inf.ufg.br/ig/ValueSet/vs-qualificacao,0.0.2,active,,ValoresQualificacaoAnimalTerapeuta,Códigos válidos para qualificação de animal terapeuta,"Códigos para designar capacidade de um animal terapeuta",,"Internal"

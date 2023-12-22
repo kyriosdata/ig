@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta> a fhir:StructureDefinition ;
+<https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal-terapeuta> a fhir:StructureDefinition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "animal-terapeuta"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Animal terapeuta</div>"
   ] ; # 
-  fhir:url [ fhir:v "https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.0.1"] ; # 
+  fhir:url [ fhir:v "https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal-terapeuta"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.0.2"] ; # 
   fhir:name [ fhir:v "AnimalTerapeuta"] ; # 
   fhir:title [ fhir:v "Animal terapeuta"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-09-18T16:59:10-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-21T20:59:12-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "CGIS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "CGIS" ] ;
@@ -138,8 +138,8 @@
          fhir:human [ fhir:v "Endereço não pode ser para uso financeiro" ] ;
          fhir:expression [ fhir:v "address.where(use = 'billing').empty()" ] ;
          fhir:source [
-           fhir:v "https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta"^^xsd:anyURI ;
-           fhir:link <https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta>
+           fhir:v "https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal-terapeuta"^^xsd:anyURI ;
+           fhir:link <https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal-terapeuta>
          ]
        ] ) ;
        fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
@@ -276,9 +276,6 @@
          ] [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "Language" ]
-         ] [
-           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "true"^^xsd:boolean ]
          ] ) ;
          fhir:strength [ fhir:v "preferred" ] ;
          fhir:description [ fhir:v "A human language." ] ;
@@ -874,9 +871,6 @@
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "IdentifierType" ]
-         ] [
-           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "true"^^xsd:boolean ]
          ] ) ;
          fhir:strength [ fhir:v "extensible" ] ;
          fhir:description [ fhir:v "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose." ] ;
@@ -1266,9 +1260,6 @@
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "IdentifierType" ]
-         ] [
-           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "true"^^xsd:boolean ]
          ] ) ;
          fhir:strength [ fhir:v "extensible" ] ;
          fhir:description [ fhir:v "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose." ] ;
@@ -1644,9 +1635,6 @@
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "AdministrativeGender" ]
-         ] [
-           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "true"^^xsd:boolean ]
          ] ) ;
          fhir:strength [ fhir:v "required" ] ;
          fhir:description [ fhir:v "The gender of a person used for administrative purposes." ] ;
@@ -2281,8 +2269,8 @@
        fhir:binding [
          fhir:strength [ fhir:v "required" ] ;
          fhir:valueSet [
-           fhir:v "https://kyriosdata.github.io/ig/ValueSet/vs-qualificacao"^^xsd:anyURI ;
-           fhir:link <https://kyriosdata.github.io/ig/ValueSet/vs-qualificacao>
+           fhir:v "https://fhir.fabrica.inf.ufg.br/ig/ValueSet/vs-qualificacao"^^xsd:anyURI ;
+           fhir:link <https://fhir.fabrica.inf.ufg.br/ig/ValueSet/vs-qualificacao>
          ]
        ] ;
        fhir:mapping ( [
@@ -2534,9 +2522,6 @@
          ] [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "Language" ]
-         ] [
-           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "true"^^xsd:boolean ]
          ] ) ;
          fhir:strength [ fhir:v "preferred" ] ;
          fhir:description [ fhir:v "A human language." ] ;
@@ -2568,8 +2553,8 @@
          fhir:human [ fhir:v "Endereço não pode ser para uso financeiro" ] ;
          fhir:expression [ fhir:v "address.where(use = 'billing').empty()" ] ;
          fhir:source [
-           fhir:v "https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta"^^xsd:anyURI ;
-           fhir:link <https://kyriosdata.github.io/ig/StructureDefinition/animal-terapeuta>
+           fhir:v "https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal-terapeuta"^^xsd:anyURI ;
+           fhir:link <https://fhir.fabrica.inf.ufg.br/ig/StructureDefinition/animal-terapeuta>
          ]
        ] )
      ] [
@@ -2687,8 +2672,8 @@
        fhir:binding [
          fhir:strength [ fhir:v "required" ] ;
          fhir:valueSet [
-           fhir:v "https://kyriosdata.github.io/ig/ValueSet/vs-qualificacao"^^xsd:anyURI ;
-           fhir:link <https://kyriosdata.github.io/ig/ValueSet/vs-qualificacao>
+           fhir:v "https://fhir.fabrica.inf.ufg.br/ig/ValueSet/vs-qualificacao"^^xsd:anyURI ;
+           fhir:link <https://fhir.fabrica.inf.ufg.br/ig/ValueSet/vs-qualificacao>
          ]
        ]
      ] [

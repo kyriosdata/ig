@@ -3,10 +3,10 @@
   "id" : "qualification",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Busca por qualificação</div>"
   },
-  "url" : "https://kyriosdata.github.io/ig/OperationDefinition/qualification",
-  "version" : "0.0.1",
+  "url" : "https://fhir.fabrica.inf.ufg.br/ig/OperationDefinition/qualification",
+  "version" : "0.0.2",
   "name" : "LocalizaAnimalTerapeutaPorQualificacao",
   "title" : "Definição de busca por qualificação de animal terapeuta",
   "status" : "active",
@@ -47,7 +47,7 @@
     "type" : "code",
     "binding" : {
       "strength" : "required",
-      "valueSet" : "https://kyriosdata.github.io/ig/ValueSet/vs-qualificacao"
+      "valueSet" : "https://fhir.fabrica.inf.ufg.br/ig/ValueSet/vs-qualificacao"
     }
   },
   {

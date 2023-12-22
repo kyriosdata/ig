@@ -1,0 +1,31 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/animal-species",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AnimalSpecies",
+      "title" : "Animal species",
+      "description" : "This example value set defines a set of codes that can be used to indicate species of animal patients.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.420"],
+      "sources" : ["2.16.840.1.113883.4.642.3.420"],
+      "uses" : {
+      },
+      "StructureDefinition-animal-terapeuta.html" : "Animal terapeuta"
+    },
+    {
+      "url" : "https://fhir.fabrica.inf.ufg.br/ig/ValueSet/vs-qualificacao",
+      "version" : "0.0.2",
+      "status" : "active",
+      "name" : "ValoresQualificacaoAnimalTerapeuta",
+      "title" : "Códigos válidos para qualificação de animal terapeuta",
+      "description" : "Códigos para designar capacidade de um animal terapeuta",
+      "systems" : ["https://fhir.fabrica.inf.ufg.br/ig/CodeSystem/qualificacao"],
+      "uses" : {
+      },
+      "StructureDefinition-animal-terapeuta.html" : "Animal terapeuta",
+      "OperationDefinition-qualification.html" : "Definição de busca por qualificação de animal terapeuta"
+    }
+  ]
+}
