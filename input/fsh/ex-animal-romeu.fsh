@@ -2,8 +2,6 @@ Instance: romeu
 InstanceOf: Patient
 Usage: #example
 Description: "Um exemplo de animal"
-* text.status = #empty
-* text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>Dr. Romeu</div>"
 
 * meta.profile = Canonical(animal)
 

@@ -1,5 +1,5 @@
 Alias: $animal = http://hl7.org/fhir/StructureDefinition/patient-animal
-Alias: $animal-breed = http://example.org/fhir/CodeSystem/animal-breed
+Alias: $animal-breed = https://fhir.fabrica.inf.ufg.br/ig/CodeSystem/raca
 Alias: $animal-genderstatus = http://hl7.org/fhir/animal-genderstatus
 Alias: $animal-species = http://hl7.org/fhir/animal-species
 Alias: $vs-animal-species = http://hl7.org/fhir/ValueSet/animal-species
