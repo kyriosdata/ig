@@ -16,7 +16,7 @@ Description: "Um exemplo de animal"
 * extension[0].extension[0].url = "species"
 * extension[0].extension[0].valueCodeableConcept = $animal-species#canislf "Dog"
 * extension[0].extension[1].url = "breed"
-* extension[0].extension[1].valueCodeableConcept = $animal-breed#gret "Golden Retriever"
+* extension[0].extension[1].valueCodeableConcept = Raca#gret "Golden Retriever"
 * extension[0].extension[2].url = "genderStatus"
 * extension[0].extension[2].valueCodeableConcept = $animal-genderstatus#neutered
 
