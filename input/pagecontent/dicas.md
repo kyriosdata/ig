@@ -76,3 +76,15 @@ conforme [aqui](https://github.com/FHIR/ig-registry/pull/212#event-10378476168).
 Após estes passos pode-se localizar o presente guia no registro
 
 ````
+
+### Cross Version Analysis
+{% include cross-version-analysis.xhtml %}
+
+### Dependency Table
+{% include dependency-table.xhtml %}
+
+### Globals Table
+{% include globals-table.xhtml %}
+
+### IP Statements
+{% include ip-statements.xhtml %}
