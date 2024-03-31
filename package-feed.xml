@@ -10,15 +10,26 @@
     <language>pt</language>
     <ttl>600</ttl>
     <item>
-      <title>br.ufg.cgis.ig#0.0.2</title>
-      <description>Primeira liberação publicada</description>
+      <title>br.ufg.cgis.ig#0.0.3</title>
+      <description>Guia de exemplo para fins educacionais</description>
       <link>https://fhir.fabrica.inf.ufg.br/ig/site/package.tgz</link>
       <guid isPermaLink="true">https://fhir.fabrica.inf.ufg.br/ig/site/package.tgz</guid>
       <dc:creator>CGIS-UFG</dc:creator>
       <fhir:version>4.0.1</fhir:version>
       <fhir:kind>IG</fhir:kind>
-      <pubDate>Fri, 22 Dec 2023 00:01:25 +0000</pubDate>
+      <pubDate>Sun, 31 Mar 2024 21:44:35 +0000</pubDate>
       <fhir:details>Publicação do guia que orienta a criação de guias de implementação. Trata-se de cenário hipotético.</fhir:details>
     </item>
+	<item>
+		<title>br.ufg.cgis.rnds-lite#0.0.1</title>
+		<description>O conteúdo de dados enviados para a RNDS (payload) pode ser validado por meio de artefatos FHIR disponibilizados pelo Ministério da Saúde (Brasil). Este conteúdo não é produzido pelo Ministério da Saúde (Brasil). Nenhuma garantia é oferecida. Trata-se de um trabalho em andamento.</description>
+		<link>https://fhir.fabrica.inf.ufg.br/rnds/site/package.tgz</link>
+		<guid isPermaLink="true">https://fhir.fabrica.inf.ufg.br/rnds/site/package.tgz</guid>
+		<dc:creator>CGIS-UFG</dc:creator>
+		<fhir:version>4.0.1</fhir:version>
+		<fhir:kind>IG</fhir:kind>
+		<pubDate>Tue, 02 Jan 2024 21:06:09 +0000</pubDate>
+		<fhir:details> Este conteúdo não é produzido pelo Ministério da Saúde (Brasil). Nenhuma garantia é oferecida. Trata-se de um trabalho em andamento.</fhir:details>
+	</item>
   </channel>
 </rss>
